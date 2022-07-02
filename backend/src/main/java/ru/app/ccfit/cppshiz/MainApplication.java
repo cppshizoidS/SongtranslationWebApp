@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"ru.nsu.ccfit.trubitsyna"})
+@ComponentScan(basePackages = {"ru.app.ccfit.cppshiz"})
 public class MainApplication {
 
 	public static void main(String[] args) {
