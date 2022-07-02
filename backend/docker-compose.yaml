@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  postgres:
+    image: postgres:14.2
+
+    container_name: "songs-db"
+    environment:
+      POSTGRES_DB: "songs-db"
+      POSTGRES_USER: "admin"
+      POSTGRES_PASSWORD: "1234"
+    volumes:
+      - .:/docker-entrypoint-initdb.d
+    ports:
+      - "5432:5432"

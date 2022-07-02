@@ -1,0 +1,37 @@
+
+
+
+.form{
+    background-color: #F6E7D8;
+    border-radius: 5px;
+    width: 550px;
+    margin: 20px auto;
+    padding: 20px;
+    /* height: 600px; */
+}
+
+.form-body{
+    text-align: left;
+    padding: 20px 10px;
+}
+
+.form-body > *{
+    padding: 5px;
+}
+
+.form__label{
+    width: 40%;
+    font-family: 'Crafty Girls';
+    font-style: normal;
+    color: #874356;
+}
+
+.form_input{
+    width: 60%;
+    font-family: 'Crafty Girls';
+    font-style: normal;
+}
+
+.footer{
+    text-align: center;
+}
